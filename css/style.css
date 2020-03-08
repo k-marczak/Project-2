@@ -43,6 +43,7 @@ font-family: 'Catamaran', sans-serif; */
 html{
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -489,6 +490,7 @@ nav ul li{
     cursor: pointer;
     transition: 300ms ease-in-out;
     font-size: 20px;
+    outline: none;
 }
 
 .btn:hover{
@@ -678,14 +680,25 @@ footer .container{
         display: none;
     }
 
+    .services h1{
+        transform: translateX(-80px) !important;
+    }
+
     .services-cards h2{
         padding: 10px;
+        
     }
 
     .icons{
         grid-template-columns: 1fr 1fr;
         overflow: hidden;
     }
+
+    .services-cards{
+        grid-template-columns: 1fr 1fr !important;
+        transform: translateY(-50px);
+    }
+
 
 
 

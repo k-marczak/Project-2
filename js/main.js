@@ -1,3 +1,10 @@
+AOS.init({
+    offset: 200,
+    duration: 1000
+});
+
+
+
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
 
