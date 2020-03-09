@@ -790,6 +790,10 @@ footer .container{
         font-size: 10px;
         width: 70%;
     }
+    
+    .card h2{
+        margin: 40px 0;
+    }
 
     .second h1{
         font-size: 25px;
