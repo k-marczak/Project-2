@@ -768,9 +768,22 @@ footer .container{
         font-size: 40px;
         margin-left: 20px;
     }
+
+    .icons div img {
+        height: 50px;
+    }
+
+    .icons{
+        margin: 0 auto;
+    }
+
+    .icons .container{
+        margin: 0 auto;
+        /* transform: translateX(-10px); */
+    }
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
     .second p{
         font-size: 10px;
         width: 70%;
@@ -785,7 +798,8 @@ footer .container{
     }
 
     .icons{
-        transform: translateX(40px);
+        transform: translateX(15px);
+        width: 70%;
     }
 
     .card{
@@ -805,6 +819,8 @@ footer .container{
         height: 60px;
         
     }
+
+
 
     .services-cards{
         transform: translateX(-17px);
