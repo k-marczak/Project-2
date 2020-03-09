@@ -681,7 +681,8 @@ footer .container{
     }
 
     .services h1{
-        transform: translateX(-80px) !important;
+        transform: translate(-90px, -120px);
+        color: black;
     }
 
     .services-cards h2{
@@ -696,7 +697,7 @@ footer .container{
 
     .services-cards{
         grid-template-columns: 1fr 1fr !important;
-        transform: translateY(-50px);
+        transform: translateY(-90px);
     }
 
 
@@ -727,11 +728,12 @@ footer .container{
 
     .services-cards{
         grid-template-columns: 1fr 1fr;
-        transform: translateY(-50px);
+        transform: translateY(-150px);
     }
     .services h1{
-        transform: translate(-50px, -140px);
+        transform: translate(-80px, -170px);
         color: black;
+        font-size: 50px;
     }
 
     .footer{
@@ -798,7 +800,7 @@ footer .container{
     }
 
     .icons{
-        transform: translateX(15px);
+        transform: translateX(25px);
         width: 70%;
     }
 
@@ -812,8 +814,37 @@ footer .container{
     }
 
     .services h1{
-        font-size: 40px;
+        font-size: 50px;
+        margin-left: 15px;
     }
+
+    .Join-Us{
+        transform: translate(-80px, -130px);
+    }
+
+    .third h1::after{
+        content: "";
+        width: 10rem;
+        height: .8rem;
+        background-color: cornflowerblue;
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+    }
+    
+    .Join-Us .btn{
+        font-size: 15px;
+        padding: 5px 30px;
+        transform: translateY(100px);
+    }
+
+    .third h1{
+        font-size: 30px;
+    }
+
+    
 
     .services-cards div img{
         height: 60px;
@@ -823,10 +854,30 @@ footer .container{
 
 
     .services-cards{
-        transform: translateX(-17px);
+        transform: translate(-8px, -130px);
     }
 
     .services-cards div h2{
         font-size: 15px;
     }
+
+    .profile-img{
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -11rem;
+        z-index: 999;
+        border: 1rem solid #ebeef8;
+    }
+
+    .about{
+        font-size: 15px;
+    }
+
+    .card .btn{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
 }
+
