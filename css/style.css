@@ -755,6 +755,62 @@ footer .container{
     .icons{
         transform: translateX(90px);
     }
+    
 }
 
+@media(max-width: 600px){
+    .image1{
+        height: 170px !important;
 
+    }
+
+    .Join-Us h1{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    .second p{
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .second h1{
+        font-size: 25px;
+    }
+
+    .image1{
+        height: 150px !important;
+    }
+
+    .icons{
+        transform: translateX(40px);
+    }
+
+    .card{
+        width: 15rem;
+        transform: translateX(-17px);
+    }
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+
+    .services h1{
+        font-size: 40px;
+    }
+
+    .services-cards div img{
+        height: 60px;
+        
+    }
+
+    .services-cards{
+        transform: translateX(-17px);
+    }
+
+    .services-cards div h2{
+        font-size: 15px;
+    }
+}
